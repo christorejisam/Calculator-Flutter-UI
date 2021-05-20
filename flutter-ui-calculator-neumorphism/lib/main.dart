@@ -152,6 +152,7 @@ class _CalculatorNeuAppState extends State<CalculatorNeuApp> {
       ),
     );
   }
+
   Widget _buttonRounded(
       {String title,
       double padding = 17,
@@ -169,16 +170,16 @@ class _CalculatorNeuAppState extends State<CalculatorNeuApp> {
           height: padding * 2,
           child: Center(
               child: title != null
-          ? Text(
-                  '$title',
-                style: TextStyle(
+                  ? Text(
+                      '$title',
+                      style: TextStyle(
                           color: textColor != null
                               ? textColor
                               : darkMode
                                   ? Colors.white
                                   : Colors.black,
                           fontSize: 30),
-                    )                      
+                    )
                   : Icon(
                       icon,
                       color: iconColor,
