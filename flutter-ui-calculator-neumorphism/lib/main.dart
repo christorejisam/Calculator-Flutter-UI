@@ -188,4 +188,11 @@ class _CalculatorNeuAppState extends State<CalculatorNeuApp> {
         ),
       ),
     );
-  }                    
+  }
+
+  Widget _buttonOval({String title, double padding = 17}) {
+    return Padding(
+      padding: const EdgeInsets.all(10),
+      child: NeuContainer(
+        darkMode: darkMode,
+        borderRadius: BorderRadius.circular(50),                      
