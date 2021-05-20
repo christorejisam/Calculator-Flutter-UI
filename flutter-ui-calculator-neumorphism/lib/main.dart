@@ -242,3 +242,25 @@ class NeuContainer extends StatefulWidget {
   final Widget child;
   final BorderRadius borderRadius;
   final EdgeInsetsGeometry padding;
+
+  NeuContainer(
+            {this.darkMode = false, this.child, this.borderRadius, this.padding});
+
+  @override
+  _NeuContainerState createState() => _NeuContainerState();
+}
+
+class _    NeuCo  ntainerState extends State<NeuContainer> {
+  bool _isPressed = false;
+
+  void _on PointerDown(PointerDownEvent event) {
+    setState(() {
+      _isPressed = true;
+    });
+  }
+
+  void _on PointerUp(PointerUpEvent event) {
+    setState(() {
+      _isPressed = false;
+    });
+  }  
