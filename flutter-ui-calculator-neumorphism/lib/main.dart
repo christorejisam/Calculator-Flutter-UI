@@ -15,6 +15,14 @@ class MyApp extends StatelessWidget {
   }
 }
 
+const Color colorDark = Color(0xFF374352);
+const Color colorLight = Color(0xFFe6eeff);
+
+class CalculatorNeuApp extends StatefulWidget {
+  @override
+  _CalculatorNeuAppState createState() => _CalculatorNeuAppState();
+}
+
 class _CalculatorNeuAppState extends State<CalculatorNeuApp> {
   bool darkMode = false;
   @override
@@ -244,26 +252,26 @@ class NeuContainer extends StatefulWidget {
   final EdgeInsetsGeometry padding;
 
   NeuContainer(
-            {this.darkMode = false, this.child, this.borderRadius, this.padding});
+      {this.darkMode = false, this.child, this.borderRadius, this.padding});
 
   @override
   _NeuContainerState createState() => _NeuContainerState();
 }
 
-class _    NeuCo  ntainerState extends State<NeuContainer> {
+class _NeuContainerState extends State<NeuContainer> {
   bool _isPressed = false;
 
-  void _on PointerDown(PointerDownEvent event) {
+  void _onPointerDown(PointerDownEvent event) {
     setState(() {
       _isPressed = true;
     });
   }
 
-  void _on PointerUp(PointerUpEvent event) {
+  void _onPointerUp(PointerUpEvent event) {
     setState(() {
       _isPressed = false;
     });
-  }  
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -298,4 +306,3 @@ class _    NeuCo  ntainerState extends State<NeuContainer> {
     );
   }
 }
-                
