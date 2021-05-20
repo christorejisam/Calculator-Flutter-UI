@@ -212,4 +212,13 @@ class _CalculatorNeuAppState extends State<CalculatorNeuApp> {
         ),
       ),
     );
-  }               
+  }
+
+  Widget _switchMode() {
+    return NeuContainer(
+      darkMode: darkMode,
+      padding: EdgeInsets.symmetric(vertical: 10, horizontal: 15),
+      borderRadius: BorderRadius.circular(40),
+      child: Container(
+        width: 70,
+                         
