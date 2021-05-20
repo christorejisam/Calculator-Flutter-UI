@@ -66,4 +66,9 @@ class _CalculatorNeuAppState extends State<CalculatorNeuApp> {
                         )
                       ],
                     ),
-                    
+                    SizedBox(
+                      height: 10,
+                    )
+                  ],
+                ),
+              ),
