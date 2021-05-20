@@ -49,3 +49,12 @@ class _CalculatorNeuAppState extends State<CalculatorNeuApp> {
                             color: darkMode ? Colors.white : Colors.red),
                       ),
                     ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text(
+                          '=',
+                          style: TextStyle(
+                              fontSize: 35,
+                              color: darkMode ? Colors.green : Colors.grey),
+                        ),
