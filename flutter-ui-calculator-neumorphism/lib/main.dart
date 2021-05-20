@@ -15,14 +15,6 @@ class MyApp extends StatelessWidget {
   }
 }
 
-const Color colorDark = Color(0xFF374352);
-const Color colorLight = Color(0xFFe6eeff);
-
-class CalculatorNeuApp extends StatefulWidget {
-  @override
-  _CalculatorNeuAppState createState() => _CalculatorNeuAppState();
-}
-
 class _CalculatorNeuAppState extends State<CalculatorNeuApp> {
   bool darkMode = false;
   @override
@@ -45,3 +37,7 @@ class _CalculatorNeuAppState extends State<CalculatorNeuApp> {
                             darkMode ? darkMode = false : darkMode = true;
                           });
                         },
+                        child: _switchMode()),
+                    SizedBox(height: 80),
+                    Align(
+                      alignment: Alignment.centerRight,
