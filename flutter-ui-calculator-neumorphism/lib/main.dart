@@ -119,4 +119,15 @@ class _CalculatorNeuAppState extends State<CalculatorNeuApp> {
                           textColor: darkMode ? Colors.green : Colors.redAccent)
                     ],
                   ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      _buttonRounded(title: '1'),
+                      _buttonRounded(title: '2'),
+                      _buttonRounded(title: '3'),
+                      _buttonRounded(
+                          title: '+',
+                          textColor: darkMode ? Colors.green : Colors.redAccent)
+                    ],
+                  ),
                   
