@@ -278,4 +278,23 @@ class _    NeuCo  ntainerState extends State<NeuContainer> {
             borderRadius: widget.borderRadius,
             boxShadow: _isPressed
                 ? null
-                : [  
+                : [
+                    BoxShadow(
+                      color:
+                          darkMode ? Colors.black54 : Colors.blueGrey.shade200,
+                      offset: Offset(4.0, 4.0),
+                      blurRadius: 15.0,
+                      spreadRadius: 1.0,
+                    ),
+                    BoxShadow(
+                        color:
+                            darkMode ? Colors.blueGrey.shade700 : Colors.white,
+                        offset: Offset(-4.0, -4.0),
+                        blurRadius: 15.0,
+                        spreadRadius: 1.0)
+                  ]),
+        child: widget.child,
+      ),
+    );
+  }
+}                  
