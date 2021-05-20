@@ -152,3 +152,9 @@ class _CalculatorNeuAppState extends State<CalculatorNeuApp> {
       ),
     );
   }
+  Widget _buttonRounded(
+      {String title,
+      double padding = 17,
+      IconData icon,
+      Color iconColor,
+      Color textColor}) {
