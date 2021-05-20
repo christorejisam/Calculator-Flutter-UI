@@ -169,9 +169,9 @@ class _CalculatorNeuAppState extends State<CalculatorNeuApp> {
           height: padding * 2,
           child: Center(
               child: title != null
-                  ? Text(
-                      '$title',
-                      style: TextStyle(
+          ? Text(
+                  '$title',
+                style: TextStyle(
                           color: textColor != null
                               ? textColor
                               : darkMode
@@ -179,3 +179,12 @@ class _CalculatorNeuAppState extends State<CalculatorNeuApp> {
                                   : Colors.black,
                           fontSize: 30),
                     )                      
+                  : Icon(
+                      icon,
+                      color: iconColor,
+                      size: 30,
+                    )),
+        ),
+      ),
+    );
+  }                    
