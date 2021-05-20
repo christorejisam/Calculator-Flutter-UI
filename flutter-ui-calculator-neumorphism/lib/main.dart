@@ -41,3 +41,11 @@ class _CalculatorNeuAppState extends State<CalculatorNeuApp> {
                     SizedBox(height: 80),
                     Align(
                       alignment: Alignment.centerRight,
+                      child: Text(
+                        '3.200',
+                        style: TextStyle(
+                            fontSize: 55,
+                            fontWeight: FontWeight.bold,
+                            color: darkMode ? Colors.white : Colors.red),
+                      ),
+                    ),
