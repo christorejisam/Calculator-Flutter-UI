@@ -72,3 +72,15 @@ class _CalculatorNeuAppState extends State<CalculatorNeuApp> {
                   ],
                 ),
               ),
+              Container(
+                child: Column(children: [
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      _buttonOval(title: 'sin'),
+                      _buttonOval(title: 'cos'),
+                      _buttonOval(title: 'tan'),
+                      _buttonOval(title: '%')
+                    ],
+                  ),
+                  
