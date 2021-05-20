@@ -235,4 +235,10 @@ class _CalculatorNeuAppState extends State<CalculatorNeuApp> {
       ),
     );
   }
-}                 
+}
+
+class NeuContainer extends StatefulWidget {
+  final bool darkMode;
+  final Widget child;
+  final BorderRadius borderRadius;
+  final EdgeInsetsGeometry padding;
