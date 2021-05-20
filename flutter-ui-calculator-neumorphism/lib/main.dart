@@ -34,3 +34,7 @@ class _CalculatorNeuAppState extends State<CalculatorNeuApp> {
           padding: const EdgeInsets.all(18),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Container(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
