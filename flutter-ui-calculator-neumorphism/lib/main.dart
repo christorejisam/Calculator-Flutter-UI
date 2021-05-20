@@ -22,3 +22,6 @@ class CalculatorNeuApp extends StatefulWidget {
   @override
   _CalculatorNeuAppState createState() => _CalculatorNeuAppState();
 }
+
+class _CalculatorNeuAppState extends State<CalculatorNeuApp> {
+  bool darkMode = false;
