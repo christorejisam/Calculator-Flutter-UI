@@ -226,4 +226,13 @@ class _CalculatorNeuAppState extends State<CalculatorNeuApp> {
           Icon(
             Icons.wb_sunny,
             color: darkMode ? Colors.grey : Colors.redAccent,
-          ),                 
+          ),
+          Icon(
+            Icons.nightlight_round,
+            color: darkMode ? Colors.green : Colors.grey,
+          ),
+        ]),
+      ),
+    );
+  }
+}                 
