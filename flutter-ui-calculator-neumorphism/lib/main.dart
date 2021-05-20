@@ -58,3 +58,12 @@ class _CalculatorNeuAppState extends State<CalculatorNeuApp> {
                               fontSize: 35,
                               color: darkMode ? Colors.green : Colors.grey),
                         ),
+                        Text(
+                          '40x5+30x100',
+                          style: TextStyle(
+                              fontSize: 20,
+                              color: darkMode ? Colors.green : Colors.grey),
+                        )
+                      ],
+                    ),
+                    
