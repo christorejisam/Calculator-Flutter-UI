@@ -203,7 +203,7 @@ class _CalculatorNeuAppState extends State<CalculatorNeuApp> {
           child: Center(
             child: Text(
               '$title',
-                            style: TextStyle(
+              style: TextStyle(
                   color: darkMode ? Colors.white : Colors.black,
                   fontSize: 15,
                   fontWeight: FontWeight.bold),
@@ -212,4 +212,4 @@ class _CalculatorNeuAppState extends State<CalculatorNeuApp> {
         ),
       ),
     );
-  }                      
+  }               
