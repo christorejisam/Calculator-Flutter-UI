@@ -163,4 +163,11 @@ class _CalculatorNeuAppState extends State<CalculatorNeuApp> {
       child: NeuContainer(
         darkMode: darkMode,
         borderRadius: BorderRadius.circular(40),
-        padding: EdgeInsets.all(padding),        
+        padding: EdgeInsets.all(padding),
+        child: Container(
+          width: padding * 2,
+          height: padding * 2,
+          child: Center(
+              child: title != null
+                  ? Text(
+                      '$title',        
