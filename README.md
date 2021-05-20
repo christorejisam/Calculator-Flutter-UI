@@ -5,3 +5,5 @@ It is a a Simple Calculator Flutter UI Neumorphism Design .
 
 ## 📷 Interface of the application :
 ![Preview](/pic1.png)
+![Preview](/pic2.png)
+
