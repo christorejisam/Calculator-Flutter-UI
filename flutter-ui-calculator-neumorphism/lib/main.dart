@@ -158,3 +158,9 @@ class _CalculatorNeuAppState extends State<CalculatorNeuApp> {
       IconData icon,
       Color iconColor,
       Color textColor}) {
+    return Padding(
+      padding: const EdgeInsets.all(8),
+      child: NeuContainer(
+        darkMode: darkMode,
+        borderRadius: BorderRadius.circular(40),
+        padding: EdgeInsets.all(padding),        
