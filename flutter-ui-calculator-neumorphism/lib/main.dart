@@ -17,3 +17,8 @@ class MyApp extends StatelessWidget {
 
 const Color colorDark = Color(0xFF374352);
 const Color colorLight = Color(0xFFe6eeff);
+
+class CalculatorNeuApp extends StatefulWidget {
+  @override
+  _CalculatorNeuAppState createState() => _CalculatorNeuAppState();
+}
