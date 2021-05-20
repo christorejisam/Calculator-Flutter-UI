@@ -264,3 +264,18 @@ class _    NeuCo  ntainerState extends State<NeuContainer> {
       _isPressed = false;
     });
   }  
+
+  @override
+  Widget build(BuildContext context) {
+    bool darkMode = widget.darkMode;
+    return Listener(
+      onPointerDown: _onPointerDown,
+      onPointerUp: _onPointerUp,
+      child: Container(
+        padding: widget.padding,
+        decoration: BoxDecoration(
+            color: darkMode ? colorDark : colorLight,
+            borderRadius: widget.borderRadius,
+            boxShadow: _isPressed
+                ? null
+                : [  
