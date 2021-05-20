@@ -29,3 +29,8 @@ class _CalculatorNeuAppState extends State<CalculatorNeuApp> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: darkMode ? colorDark : colorLight,
+      body: SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.all(18),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
