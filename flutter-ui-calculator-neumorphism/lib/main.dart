@@ -221,4 +221,9 @@ class _CalculatorNeuAppState extends State<CalculatorNeuApp> {
       borderRadius: BorderRadius.circular(40),
       child: Container(
         width: 70,
-                         
+        child:
+            Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
+          Icon(
+            Icons.wb_sunny,
+            color: darkMode ? Colors.grey : Colors.redAccent,
+          ),                 
