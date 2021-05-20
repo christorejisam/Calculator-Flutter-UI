@@ -25,3 +25,7 @@ class CalculatorNeuApp extends StatefulWidget {
 
 class _CalculatorNeuAppState extends State<CalculatorNeuApp> {
   bool darkMode = false;
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: darkMode ? colorDark : colorLight,
