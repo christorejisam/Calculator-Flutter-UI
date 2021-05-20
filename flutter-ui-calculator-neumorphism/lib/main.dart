@@ -38,3 +38,10 @@ class _CalculatorNeuAppState extends State<CalculatorNeuApp> {
               Container(
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    GestureDetector(
+                        onTap: () {
+                          setState(() {
+                            darkMode ? darkMode = false : darkMode = true;
+                          });
+                        },
